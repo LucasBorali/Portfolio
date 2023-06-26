@@ -1,0 +1,40 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 1;
+}
+
+.navBar ul {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  color: #ffff;
+}
+
+.navBar li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.navBar li:hover {
+  background-color: #e71d36;
+}
+
+.navBar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  width: 40px;
+  height: 30px;
+  margin-right: 3rem;
+}
