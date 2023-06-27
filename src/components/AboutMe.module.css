@@ -3,4 +3,26 @@
     width: 100vw;
     background: linear-gradient( #252526 70%, #e71d36);
     color: #fff;
+    padding-top: 10vh;
+}
+
+.aboutMe .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 13vh;
+}
+
+.aboutMe .back {
+    font-weight: 900;
+    font-size: 5rem;
+    position: absolute;
+    color: #373738 ;
+}
+.aboutMe .front {
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #e71d36 ;
 }

@@ -3,4 +3,47 @@
     width: 100vw;
     background: linear-gradient( #010202 10%, #2e2e2e, #252526);
     color: #fff;
+    padding-top: 10vh;
 }
+.projects .head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+    height: 13vh;
+}
+
+.projects .back {
+    font-weight: 900;
+    font-size: 5rem;
+    position: absolute;
+    color: #171717 ;
+}
+.projects .front {
+    position: absolute;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #e71d36 ;
+}
+
+.projects ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    
+}
+.projects li {
+    display: flex;
+    align-items: center;
+    height: 148px;
+    width: 330px;
+    overflow: hidden;
+    transition: 0.2s ease;
+}   
+
+.projects li:hover {
+    transform: scale(1.1);
+    
+}
+
