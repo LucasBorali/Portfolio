@@ -1,28 +1,124 @@
 .aboutMe {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient( #252526 70%, #e71d36);
-    color: #fff;
-    padding-top: 10vh;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(#252526 70%, #e71d36);
+  color: #fff;
+  padding-top: 5vh;
 }
 
 .aboutMe .head {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 13vh;
 }
 
 .aboutMe .back {
-    font-weight: 900;
-    font-size: 5rem;
-    position: absolute;
-    color: #373738 ;
+  font-weight: 900;
+  font-size: 5rem;
+  position: absolute;
+  color: #373738;
 }
 .aboutMe .front {
-    position: absolute;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #e71d36 ;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #e71d36;
+}
+
+.panel {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel img {
+  height: 75vh;
+  border-radius: 10px;
+  border: 3px solid #e71d36;
+}
+
+.panel div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 31vw;
+  min-width: 31vw;
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+
+.panel button {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}
+
+.panel button:hover {
+  background-color: #e71d36;
+}
+
+.selected {
+  background-color: #e71d36;
+}
+
+.unselected {
+  opacity: 0.8;
+  background-color: transparent;
+}
+
+.display-panel {
+  animation: sliding 1s;
+}
+
+@keyframes sliding {
+  from {
+    transform: translateX(-30vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.soft-skills-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    list-style: none;
+}
+
+.soft-skills-panel li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    
+}
+
+.soft-skills-panel img {
+    width: 32px;
+    height: 32px;
+    border: none;
+    filter: invert();
+    border-radius: 0;
 }

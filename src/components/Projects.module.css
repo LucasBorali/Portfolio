@@ -87,37 +87,37 @@
 }
 
 .display-project h2 {
-    text-align: center;
+  text-align: center;
 }
 
 .stack {
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    width: 70%;
-    margin: auto;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  width: 70%;
+  margin: auto;
 }
 
 .stack img {
-    height: 42px
+  height: 42px;
 }
 
 .links {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .links svg {
-    height: 20px;
-    fill: #ffffff4f;
-    width: 20px;
+  height: 20px;
+  fill: #ffffff4f;
+  width: 20px;
 }
 .links a {
   text-decoration: none;
   color: #e71d36;
   display: flex;
   align-items: center;
-  gap: 15px;  
+  gap: 15px;
   width: 40%;
   height: 40px;
   justify-content: center;
@@ -127,8 +127,8 @@
 }
 
 .links a:hover {
-    background-color: #e71d36;
-    color: #fff;
+  background-color: #e71d36;
+  color: #fff;
 }
 
 .carousel {
