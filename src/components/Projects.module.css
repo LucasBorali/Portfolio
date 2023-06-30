@@ -10,7 +10,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
-
   height: 13vh;
 }
 
@@ -138,4 +137,33 @@
 
 .carousel::-webkit-scrollbar {
   display: none;
+}
+
+@media (max-width: 375px) {
+  .projects .back {
+    font-size: 4rem;
+  }
+
+  .mobileOnly {
+    display: none;
+  }
+
+  .display-project .panel {
+    width: 80vw;
+    height: 55vh;
+    margin-top: 10px;
+  }
+
+  .links {
+    gap: 10px;
+  }
+
+  .links svg {
+    width: 30px;
+  }
+
+  .links a {
+    height: 40px;
+    padding: 3px 0 3px 10px;
+  }
 }

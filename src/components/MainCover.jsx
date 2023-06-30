@@ -7,7 +7,6 @@ const MainCover = () => {
         <header>
             <p>Hi there! I'm Lucas Borali,</p>
             <h1>Front-End Developer</h1>
-            <p></p>
             <div className={classes.btns}>
             <button><a href="#projects">PROJECTS</a></button>
             <button><a href="#about-me">ABOUT ME</a></button>

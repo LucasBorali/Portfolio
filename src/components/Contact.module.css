@@ -1,49 +1,72 @@
 .contact {
-    height: 30vh;
-    width: 100vw;
-    background: #e71d36;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+  height: 30vh;
+  width: 100vw;
+  background: #e71d36;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .contact p {
-    font-weight: 900;
-    font-size: 3rem;
-    color:#ffffffc2 ;
-    background-color: #e71d36;
-    border-radius: 40px 40px 0 0;
-    padding: 0 15px;
-    position: absolute;
-    top: -5rem;
+  font-weight: 900;
+  font-size: 3rem;
+  color: #ffffffc2;
+  background-color: #e71d36;
+  border-radius: 40px 40px 0 0;
+  padding: 0 15px;
+  position: absolute;
+  top: -5rem;
 }
 
 .contact ul {
-    list-style: none;
-    display: flex;
-    gap: 10px;
+  list-style: none;
+  display: flex;
+  gap: 10px;
 }
 
 .contact li {
-    width: 15vw;
-   
+  width: 15vw;
 }
 
 .contact a {
-    color: inherit;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
 }
 
 .contact svg {
-    width: 42px;
-    height: 42px;
-    fill: #ffffffc2;
+  width: 42px;
+  height: 42px;
+  fill: #ffffffc2;
+}
+
+@media (max-width: 375px) {
+  .contact p {
+    font-size: 2.5rem;
+  }
+  .contact ul {
+    padding: 0;
+    flex-direction: column;
+  }
+
+  .contact li {
+    width: 65vw;
+  }
+
+  .contact a {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  .contact svg {
+    width: 16px;
+    height: 16px;
+  }
 }

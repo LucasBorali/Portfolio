@@ -25,7 +25,7 @@ const AboutMe = () => {
         <p className={classes.front}>Who I am</p>
       </div>
       <div className={classes.panel}>
-        <img src={pictureDesktop} alt={pictureDesktop} />
+        <img className={classes.mobileOnly} src={pictureDesktop} alt={pictureDesktop} />
         <div>
           <ul onClick={selectButtonHandler} className={classes.buttons}>
             <li>

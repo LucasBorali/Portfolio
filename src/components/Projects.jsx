@@ -77,7 +77,7 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <img src={selectedProject.img} alt={selectedProject.title} />
+        <img className={classes.mobileOnly} src={selectedProject.img} alt={selectedProject.title} />
       </div>
     </section>
   );

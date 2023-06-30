@@ -130,3 +130,52 @@
   border: none;
   border-radius: 0;
 }
+
+@media (max-width: 375px) {
+  .aboutMe .back {
+    font-size: 4rem;
+  }
+  .mobileOnly {
+    display: none;
+  }
+
+  .panel div {
+    width: 90vw;
+    padding: 1rem;
+    overflow-y: hidden;
+  }
+  .panel div p {
+    margin: 10px 0;
+  }
+
+  .buttons {
+    gap: 0;
+  }
+
+  .panel button {
+    font-size: 1rem;
+  }
+
+  .soft-skills-panel,
+  .hard-skills-panel {
+    padding: 0;
+  }
+
+  .hard-skills-panel img {
+    width: 62px;
+    height: 62px;
+  }
+
+  .display-panel {
+    animation: sliding 1s;
+  }
+
+  @keyframes sliding {
+    from {
+      transform: translateY(30vw);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+}
