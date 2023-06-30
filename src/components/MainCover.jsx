@@ -9,9 +9,9 @@ const MainCover = () => {
             <h1>Front-End Developer</h1>
             <p></p>
             <div className={classes.btns}>
-            <button>PROJECTS</button>
-            <button>ABOUT ME</button>
-            <button>CONTACT</button>
+            <button><a href="#projects">PROJECTS</a></button>
+            <button><a href="#about-me">ABOUT ME</a></button>
+            <button><a href="#contact">CONTACT</a></button>
             </div>
         </header>
         <div className={classes.heroPic}>

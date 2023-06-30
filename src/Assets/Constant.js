@@ -2,19 +2,20 @@ import sneaker from './sneakers-product-page.png';
 import ageCalc from './age-calc.png';
 import notificationPage from './notifications-page.png';
 
-import html from './html-1.svg'
-import css from './css-3.svg'
-import js from './javascript-1.svg'
-import react from './react-2.svg'
-import communication from './communication.png'
-import problemSolving from './problem-solving.png'
-import attentionDetails from './attention-details.png'
-import timeMenagement from './time-menagement.png'
-import teamWork from './team-work.png'
-import adaptability from './adaptability.png'
-import creativity from './creativity.png'
-import criticalThinking from './critical-thinking.png'
-
+import html from './html-1.svg';
+import css from './css-3.svg';
+import js from './javascript-1.svg';
+import react from './react-2.svg';
+import git from './git.svg';
+import responsive from './responsive.svg';
+import communication from './communication.png';
+import problemSolving from './problem-solving.png';
+import attentionDetails from './attention-details.png';
+import timeMenagement from './time-menagement.png';
+import teamWork from './team-work.png';
+import adaptability from './adaptability.png';
+import creativity from './creativity.png';
+import criticalThinking from './critical-thinking.png';
 
 export const projects = [
   {
@@ -29,7 +30,7 @@ export const projects = [
   {
     img: ageCalc,
     repo: 'https://github.com/LucasBorali/age-calculator-app-main',
-    website:'https://lucasborali.github.io/age-calculator-app-main/',
+    website: 'https://lucasborali.github.io/age-calculator-app-main/',
     stack: [html, css, js],
     title: 'Age Calculator App',
     description:
@@ -46,4 +47,15 @@ export const projects = [
   },
 ];
 
-export const icons = [communication, problemSolving, attentionDetails, timeMenagement, teamWork, adaptability , creativity, criticalThinking]
+export const icons = [
+  communication,
+  problemSolving,
+  attentionDetails,
+  timeMenagement,
+  teamWork,
+  adaptability,
+  creativity,
+  criticalThinking,
+];
+
+export const hardSkillIcons = [html, css, js, react, git, responsive];

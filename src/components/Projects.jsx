@@ -10,7 +10,7 @@ const Projects = () => {
   };
 
   return (
-    <section ref={projects} id="projects" className={classes.projects}>
+    <section id="projects" className={classes.projects}>
       <div className={classes.head}>
         <p className={classes.back}>PROJECTS</p>
         <p className={classes.front}>My Work</p>

@@ -1,7 +1,7 @@
 .aboutMe {
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(#252526 70%, #e71d36);
+  background: #1a1a1a;
   color: #fff;
   padding-top: 5vh;
 }
@@ -98,27 +98,35 @@
   }
 }
 
-.soft-skills-panel {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
-    list-style: none;
+.soft-skills-panel,
+.hard-skills-panel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  list-style: none;
 }
 
-.soft-skills-panel li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    gap: 5px;
-    
+.soft-skills-panel li,
+.hard-skills-panel li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
 }
 
 .soft-skills-panel img {
-    width: 32px;
-    height: 32px;
-    border: none;
-    filter: invert();
-    border-radius: 0;
+  width: 32px;
+  height: 32px;
+  border: none;
+  filter: invert();
+  border-radius: 0;
+}
+
+.hard-skills-panel img {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 0;
 }

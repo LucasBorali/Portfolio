@@ -1,5 +1,5 @@
 .cover {
-  background: linear-gradient(-45deg, #010202 60%, #2e2e2e, #252526);
+  background: black;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -58,12 +58,13 @@
 }
 
 .btns {
-  width: 100%;
+  width: 40vw;
   margin-top: 10px;
   display: flex;
   gap: 2rem;
   display: flex;
   justify-content: center;
+  
 }
 .btns button {
   outline: none;
@@ -74,10 +75,15 @@
   cursor: pointer;
   transition: 0.2s ease;
   font-weight: bold;
-    
+  height: 3rem;
 }
 
 button:hover {
   background-color: #e71d36;
   color: inherit;
+}
+
+.btns a {
+  color: inherit;
+  text-decoration: none;
 }
