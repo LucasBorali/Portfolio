@@ -47,7 +47,7 @@
   fill: #ffffffc2;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .contact p {
     font-size: 2.5rem;
   }
@@ -63,7 +63,8 @@
   .contact a {
     display: flex;
     flex-direction: row;
-    justify-content: left;
+    justify-content: center;
+
   }
   .contact svg {
     width: 16px;

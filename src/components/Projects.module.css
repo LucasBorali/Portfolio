@@ -167,3 +167,42 @@
     padding: 3px 0 3px 10px;
   }
 }
+
+@media (max-width: 500px) {
+  .projects .back {
+    font-size: 4rem;
+  }
+
+  /* .mobileOnly {
+    display: none;
+  } */
+
+  .display-project img {
+    width: 90%;
+  }
+
+  .display-project {
+    height: 60vh;
+    flex-direction: column;
+    gap: 10px
+  }
+ 
+  .display-project .panel {
+    width: 80vw;
+    height: 40vh;
+    margin-top: 10px;
+  }
+
+  .links {
+    gap: 10px;
+  }
+
+  .links svg {
+    width: 30px;
+  }
+
+  .links a {
+    height: 40px;
+    padding: 3px 0 3px 10px;
+  }
+}

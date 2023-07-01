@@ -131,7 +131,7 @@
   border-radius: 0;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
   .aboutMe .back {
     font-size: 4rem;
   }
@@ -179,3 +179,4 @@
     }
   }
 }
+
