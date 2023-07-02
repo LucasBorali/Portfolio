@@ -81,7 +81,7 @@ const AboutMe = () => {
               </p>
               <p>
                 I love cinema, but my choice for movies can go from a Disney
-                musical movie to a Titanic kind and then somenthing like all of
+                musical movie to a Titanic kind and then somenthing like all of the
                 Resident Evil ones.
               </p>
               <p>

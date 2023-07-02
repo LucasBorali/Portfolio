@@ -25,7 +25,7 @@ export const projects = [
     stack: [html, css, js, react],
     title: 'Sneakers Product Page',
     description:
-      'loremaskndnoajfjojafnanf asdoashfjoasnoidi asnoifjjasjfioas ansoashiofa iaodiasjoia asnfiasjfasmldmaiij asnfoaijsd nasdioasj',
+      `As you're about to see, 'Sneakers product page' is, for now, pretty much what the name says: a product page. At first, the prompt was to just recreate the design with no fancy interactions, but I have built this product page to be a component that can be easily connected to an API or any other kind of data bank. Well, it's still at the development stage however, soon it's going to be a real e-commerce`,
   },
   {
     img: ageCalc,
@@ -34,7 +34,7 @@ export const projects = [
     stack: [html, css, js],
     title: 'Age Calculator App',
     description:
-      'loremaskndnoajfjojafnanf asdoashfjoasnoidi asnoifjjasjfioas ansoashiofa iaodiasjoia asnfiasjfasmldmaiij asnfoaijsd nasdioasj',
+      'Have you ever wondered how much time you lived until now? Well, with this app you can finally know. Give it a try!',
   },
   {
     img: notificationPage,
@@ -43,7 +43,7 @@ export const projects = [
     stack: [html, css, js],
     title: 'Notifications page',
     description:
-      'loremaskndnoajfjojafnanf asdoashfjoasnoidi asnoifjjasjfioas ansoashiofa iaodiasjoia asnfiasjfasmldmaiij asnfoaijsd nasdioasj',
+      "A notification component that can be easily integrated on any kind of social app.",
   },
 ];
 
