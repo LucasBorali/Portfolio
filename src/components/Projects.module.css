@@ -173,13 +173,11 @@
     font-size: 4rem;
   }
 
-  /* .mobileOnly {
+  .mobileOnly {
     display: none;
-  } */
-
-  .display-project img {
-    width: 90%;
   }
+
+  
 
   .display-project {
     height: 60vh;
