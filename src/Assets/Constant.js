@@ -1,12 +1,14 @@
 import sneaker from './sneakers-product-page.png';
 import ageCalc from './age-calc.png';
 import notificationPage from './notifications-page.png';
+import caraECommerce from './cara-e-commerce.png'
 
 import html from './html-1.svg';
 import css from './css-3.svg';
 import js from './javascript-1.svg';
 import react from './react-2.svg';
 import git from './git.svg';
+import leaflet from './leaflet-1.svg';
 import responsive from './responsive.svg';
 import communication from './communication.png';
 import problemSolving from './problem-solving.png';
@@ -18,6 +20,15 @@ import creativity from './creativity.png';
 import criticalThinking from './critical-thinking.png';
 
 export const projects = [
+  {
+    img: caraECommerce,
+    repo: 'https://github.com/LucasBorali/cara-e-commerce',
+    website: 'https://lucasborali.github.io/cara-e-commerce/',
+    stack: [html, css, js, react, leaflet],
+    title: 'Cara e-commerce',
+    description:
+      `On development phase`,
+  },
   {
     img: sneaker,
     repo: 'https://github.com/LucasBorali/sneakers-product-page',
