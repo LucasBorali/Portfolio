@@ -27,7 +27,7 @@ export const projects = [
     stack: [html, css, js, react, leaflet],
     title: 'Cara e-commerce',
     description:
-      `On development phase`,
+      `Immerse yourself in a sleek and captivating design that seamlessly blends form and function. Explore a diverse range of products with ease, accompanied by an intuitive navigation system. Enjoy a visually appealing and user-friendly interface that elevates your online shopping journey to new heights.`,
   },
   {
     img: sneaker,
@@ -36,7 +36,7 @@ export const projects = [
     stack: [html, css, js, react],
     title: 'Sneakers Product Page',
     description:
-      `As you're about to see, 'Sneakers product page' is, for now, pretty much what the name says: a product page. At first, the prompt was to just recreate the design with no fancy interactions, but I have built this product page to be a component that can be easily connected to an API or any other kind of data bank. Well, it's still at the development stage however, soon it's going to be a real e-commerce`,
+      `As you're about to see, 'Sneakers product page' is, for now, pretty much what the name says: a product page. At first, the prompt was to just recreate the design with no fancy interactions, but I have built this product page to be a component that can be easily connected to an API or any other kind of data bank.`,
   },
   {
     img: ageCalc,
