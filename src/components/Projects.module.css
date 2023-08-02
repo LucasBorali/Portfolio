@@ -91,13 +91,16 @@
 
 .stack {
   display: flex;
-  align-items: center;
   font-weight: bold;
+  align-items: center;
   margin: auto;
+  flex-wrap: wrap;
+ justify-content: center;
 }
 
 .stack img {
   height: 42px;
+  width: 50px;
 }
 
 .links {

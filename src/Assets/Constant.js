@@ -18,13 +18,14 @@ import teamWork from './team-work.png';
 import adaptability from './adaptability.png';
 import creativity from './creativity.png';
 import criticalThinking from './critical-thinking.png';
+import firebase from './firebase-2.svg'
 
 export const projects = [
   {
     img: caraECommerce,
     repo: 'https://github.com/LucasBorali/cara-e-commerce',
     website: 'https://lucasborali.github.io/cara-e-commerce/',
-    stack: [html, css, js, react, leaflet],
+    stack: [html, css, js, react, firebase],
     title: 'Cara e-commerce',
     description:
       `Immerse yourself in a sleek and captivating design that seamlessly blends form and function. Explore a diverse range of products with ease, accompanied by an intuitive navigation system. Enjoy a visually appealing and user-friendly interface that elevates your online shopping journey to new heights.`,
@@ -69,4 +70,4 @@ export const icons = [
   criticalThinking,
 ];
 
-export const hardSkillIcons = [html, css, js, react, git, responsive];
+export const hardSkillIcons = [html, css, js, react, git, responsive, firebase];

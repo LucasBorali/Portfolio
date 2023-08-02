@@ -37,7 +37,7 @@ const Projects = () => {
           <h2>{selectedProject.title}</h2>
           <p>{selectedProject.description}</p>
           <div className={classes.stack}>
-            <p>Stack:</p>
+            
             {selectedProject.stack.map(img => (
               <img key={img} src={img} alt={img} />
             ))}

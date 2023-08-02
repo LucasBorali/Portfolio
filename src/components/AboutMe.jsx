@@ -119,6 +119,10 @@ const AboutMe = () => {
                   Responsiveness
                   <img src={hardSkillIcons[5]} alt={hardSkillIcons[5]} />
                 </li>
+                <li>
+                  FireBase
+                  <img src={hardSkillIcons[6]} alt={hardSkillIcons[5]} />
+                </li>
               </ul>
             </div>
           ) : (
