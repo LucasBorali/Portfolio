@@ -30,6 +30,10 @@
   list-style: none;
   display: flex;
   gap: 5px;
+  max-width: 95vw;
+  padding: 0;
+  margin: auto;
+  max-height: 500px;
 }
 .projects li img {
   pointer-events: none;
