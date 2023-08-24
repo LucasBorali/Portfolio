@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.16e23dfb.css",
-    "main.js": "/Portfolio/static/js/main.7e429c81.js",
+    "main.css": "/Portfolio/static/css/main.43f8f187.css",
+    "main.js": "/Portfolio/static/js/main.03e2d74b.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/picture-desktop.jpeg": "/Portfolio/static/media/picture-desktop.1b6c5dd3e3454bca6448.jpeg",
     "static/media/heroPicture-desktop.jpg": "/Portfolio/static/media/heroPicture-desktop.ac4056224b91a6770d78.jpg",
     "static/media/sneakers-product-page.png": "/Portfolio/static/media/sneakers-product-page.a36f692f3279f0cc90be.png",
     "static/media/cara-e-commerce.png": "/Portfolio/static/media/cara-e-commerce.f112f5481ac88f5ca732.png",
+    "static/media/car-rental-app.png": "/Portfolio/static/media/car-rental-app.c92c6987d44b4c45c74e.png",
     "static/media/notifications-page.png": "/Portfolio/static/media/notifications-page.2b53f5f9cd0b5f0f84bd.png",
     "static/media/age-calc.png": "/Portfolio/static/media/age-calc.ed0a5ba2e605c54f078a.png",
-    "static/media/leaflet-1.svg": "/Portfolio/static/media/leaflet-1.eaf14550c99ca306306272816bd6567d.svg",
     "static/media/react-2.svg": "/Portfolio/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
     "static/media/responsive.svg": "/Portfolio/static/media/responsive.0ef97351521dce26455b87080ca5b072.svg",
     "static/media/git.svg": "/Portfolio/static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
@@ -18,12 +18,12 @@
     "static/media/css-3.svg": "/Portfolio/static/media/css-3.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html-1.svg": "/Portfolio/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/javascript-1.svg": "/Portfolio/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.16e23dfb.css.map": "/Portfolio/static/css/main.16e23dfb.css.map",
-    "main.7e429c81.js.map": "/Portfolio/static/js/main.7e429c81.js.map",
+    "main.43f8f187.css.map": "/Portfolio/static/css/main.43f8f187.css.map",
+    "main.03e2d74b.js.map": "/Portfolio/static/js/main.03e2d74b.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16e23dfb.css",
-    "static/js/main.7e429c81.js"
+    "static/css/main.43f8f187.css",
+    "static/js/main.03e2d74b.js"
   ]
 }
