@@ -30,10 +30,12 @@
   list-style: none;
   display: flex;
   gap: 5px;
-  max-width: 95vw;
-  padding: 0;
-  margin: auto;
-  max-height: 500px;
+max-width: 95vw;
+ padding: 0;
+ margin-left: auto;
+ margin-right: auto;
+
+  
 }
 .projects li img {
   pointer-events: none;
@@ -47,7 +49,7 @@
   max-width: 330px;
   min-width: 300px;
   overflow: hidden;
-  transition: transform 0.2s ease;
+  transition: 0.1s ease;
   cursor: pointer;
   border-radius: 5px;
   position: relative;
@@ -99,7 +101,7 @@
   align-items: center;
   margin: auto;
   flex-wrap: wrap;
- justify-content: center;
+  justify-content: center;
 }
 
 .stack img {
@@ -183,14 +185,12 @@
     display: none;
   }
 
-  
-
   .display-project {
     height: 60vh;
     flex-direction: column;
-    gap: 10px
+    gap: 10px;
   }
- 
+
   .display-project .panel {
     width: 80vw;
     height: 40vh;
