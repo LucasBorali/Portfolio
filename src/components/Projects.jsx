@@ -9,35 +9,56 @@ const Projects = () => {
     setSelectedProject(project);
   };
 
+  const [newIndex, setIndex] = useState(0);
+
+  const startIndex = newIndex >= 1 ? 4 * newIndex : 0;
+  const endIndex = startIndex + 4;
+  const newCarousel = projects.slice(startIndex, endIndex);
+  const numButtons = Math.ceil(projects.length / 4);
+  const [newSlide, setSlide] = useState(newCarousel[0]);
+
   return (
     <section id="projects" className={classes.projects}>
       <div className={classes.head}>
         <p className={classes.back}>PROJECTS</p>
         <p className={classes.front}>My Work</p>
       </div>
+
       <div className={classes.carousel}>
+      <div className={classes.buttons}>
+          {Array.from({ length: numButtons }, (_, index) => (
+            <button
+              className={
+                index === newIndex ? classes.visible : classes.notActive
+              }
+              key={index}
+              onClick={() => setIndex(index)}
+            ></button>
+          ))}
+        </div>
         <ul>
-          {projects.map(project => (
+          {newCarousel.map(project => (
             <li
               key={project.title}
+              onClick={() => selectProjectHandler(project)}
               className={
                 project === selectedProject
                   ? classes.selected
                   : classes.unselected
               }
-              onClick={() => selectProjectHandler(project)}
             >
               <img src={project.img} alt={project.title} />
             </li>
           ))}
         </ul>
+      
       </div>
+      
       <div className={classes['display-project']}>
         <div className={classes.panel}>
           <h2>{selectedProject.title}</h2>
           <p>{selectedProject.description}</p>
           <div className={classes.stack}>
-            
             {selectedProject.stack.map(img => (
               <img key={img} src={img} alt={img} />
             ))}
@@ -77,7 +98,11 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <img className={classes.mobileOnly} src={selectedProject.img} alt={selectedProject.title} />
+        <img
+          className={classes.mobileOnly}
+          src={selectedProject.img}
+          alt={selectedProject.title}
+        />
       </div>
     </section>
   );

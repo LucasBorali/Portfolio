@@ -2,6 +2,7 @@ import sneaker from './sneakers-product-page.png';
 import notificationPage from './notifications-page.png';
 import caraECommerce from './cara-e-commerce.png';
 import carRental from './car-rental-app.png';
+import losAngelesMountains from './los-angeles-mountains.png'
 
 import html from './html-1.svg';
 import css from './css-3.svg';
@@ -35,6 +36,14 @@ export const projects = [
     stack: [html, css, js, react, firebase],
     title: 'Cara e-commerce',
     description: `Immerse yourself in a sleek and captivating design that seamlessly blends form and function. Explore a diverse range of products with ease, accompanied by an intuitive navigation system. Enjoy a visually appealing and user-friendly interface that elevates your online shopping journey to new heights.`,
+  },
+  {
+    img: losAngelesMountains,
+    repo: 'https://github.com/LucasBorali/los-angeles-mountains',
+    website: 'https://los-angeles-mountains.web.app',
+    stack: [html, css, js, react, firebase],
+    title: 'Los Angeles Mountains',
+    description: `Elegant simple page application of what might be a touristic expedition. The main idea was to implement a carousel of images an make it a reusable component.`,
   },
   {
     img: sneaker,

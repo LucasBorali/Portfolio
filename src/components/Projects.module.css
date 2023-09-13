@@ -30,12 +30,10 @@
   list-style: none;
   display: flex;
   gap: 5px;
-max-width: 95vw;
- padding: 0;
- margin-left: auto;
- margin-right: auto;
-
-  
+  max-width: 95vw;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .projects li img {
   pointer-events: none;
@@ -139,12 +137,49 @@ max-width: 95vw;
 }
 
 .carousel {
-  overflow: scroll;
-  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
-.carousel::-webkit-scrollbar {
-  display: none;
+.carousel ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 3px;
+  justify-content: right;
+  width: 90vw;
+}
+
+.buttons button {
+  width: 15px;
+  height: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 0;
+  transition: 0.2s;
+}
+
+.buttons button:hover {
+  opacity: 1;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.notActive {
+  opacity: 0.5;
 }
 
 @media (max-width: 375px) {
@@ -193,7 +228,6 @@ max-width: 95vw;
 
   .display-project .panel {
     width: 80vw;
-    height: 40vh;
     margin-top: 10px;
   }
 
@@ -208,5 +242,9 @@ max-width: 95vw;
   .links a {
     height: 40px;
     padding: 3px 0 3px 10px;
+  }
+
+  .carousel ul {
+    overflow: scroll;
   }
 }
